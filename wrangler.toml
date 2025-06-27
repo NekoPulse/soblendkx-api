@@ -1,7 +1,8 @@
-name = "soblendkx-api"
+name = "soblend-api"
 main = "src/index.js"
-compatibility_date = "2024-06-27"
+compatibility_date = "2025-06-27" # Asegúrate de que esta fecha sea la actual o una futura
 
 [vars]
-# Esta sección '[vars]' no es estrictamente necesaria si la clave está incrustada,
-# pero se incluye para mostrar dónde irían las variables de entorno si usaras el método seguro.
+
+[observability.logs]
+enabled = true
